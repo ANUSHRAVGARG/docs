@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1.1",
   "configurations": [
     {
       "type": "node",
@@ -8,6 +8,9 @@
       "processId": "${command:PickProcess}",
       "restart": true,
       "protocol": "inspector",
+      "if correct":true,
+      "else: false,
+      #edited by anushrav
     },
   ]
 }
